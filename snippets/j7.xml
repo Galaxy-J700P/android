@@ -1,16 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+<!-- Sync location -->
+  <remote name="Lineage" fetch="https://github.com/LineageOS/" />
+  <remote name="MSM8916"      fetch="https://github.com/MSM8916-Samsung-CAF" />
 
-<!-- BEGIN J7LTESPR -->
-  <project path="vendor/samsung/j7ltespr" name="Galaxy-J700P/proprietary_vendor_samsung_j7ltespr" remote="github" revision="cm-14.1" />
-  <project path="kernel/samsung/msm8929" name="Galaxy-J700P/android_kernel_samsung_msm8929" remote="github" revision="cm-14.1" />
-  <project path="device/samsung/j7ltespr" name="Galaxy-J700P/android_device_samsung_j7ltespr" remote="github" revision="cm-14.1" />
-  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-14.1" />
-  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-14.1" />
-  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1" />
-  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1" />
-  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-14.1" />
-<!-- END J7LTESPR -->
-
+<!-- MSM8916 Common sources -->
+    <project name="android_device_samsung_msm8916-common"    path="device/samsung/msm8916-common"    revision="cm-14.1" remote="MSM8916"/>
+ 
+ 
+<!-- Kernel -->  
+    <project name="android_kernel_msm8916"                   path="kernel/samsung/msm8916-common"        revision="cm-14.1" remote="MSM8916"/>
+  
+<!-- Devices -->  
+    <project name="android_device_samsung_j7ltespr"          path="device/samsung/j7ltespr"      revision="cm-14.1" remote="MSM8916"/>
+    <project name="Galaxy-J700P/proprietary_vendor_samsung_j7ltespr"      path="vendor/samsung/j7ltespr"      revision="cm-14.1" remote="github"/>
+  
+<!-- Los -->  
+    <project name="android_device_samsung_qcom-common"       path="device/samsung/qcom-common"  revision="cm-14.1" remote="Lineage" />
+    <project name="android_device_qcom_common"               path="device/qcom/common"          revision="cm-14.1" remote="Lineage" />
+    <project name="android_hardware_samsung"                 path="hardware/samsung"            revision="cm-14.1" remote="Lineage" />
+    <project name="android_external_sony_boringssl-compat"   path="external/boringssl-compat"   revision="cm-14.1" remote="Lineage" />
+    <project name="android_external_stlport"                 path="external/stlport"            revision="cm-14.1" remote="Lineage" />
+   <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="cm-14.1"  remote="Lineage"/>
 </manifest>
