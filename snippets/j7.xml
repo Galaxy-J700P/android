@@ -3,7 +3,7 @@
 
 <!-- BEGIN J7LTESPR -->
   <project path="vendor/samsung/j7ltespr" name="Galaxy-J700P/proprietary_vendor_samsung_j7ltespr" remote="github" revision="cm-13.0" />
-  <project path="kernel/samsung/j7ltespr" name="Galaxy-J700P/android_kernel_samsung_j7ltespr" remote="github" revision="cm-13.0" />
+  <project path="kernel/samsung/j7lte" name="Galaxy-J700P/android_kernel_samsung_j7lte" remote="github" revision="cm-13.0" />
   <project path="device/samsung/j7ltespr" name="Galaxy-J700P/android_device_samsung_j7ltespr" remote="github" revision="cm-13.0" />
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
   <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-13.0" />
