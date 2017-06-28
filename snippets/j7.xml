@@ -2,6 +2,7 @@
 <manifest>
 
 <!-- BEGIN J7LTESPR -->
+
   <project path="vendor/samsung" name="Galaxy-J700P/proprietary_vendor_samsung" remote="github" revision="cm-14.1" />
   <project path="kernel/samsung/msm8916" name="Galaxy-J700P/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1" />
   <project path="device/samsung/j7ltespr" name="Galaxy-J700P/android_device_samsung_j7ltespr" remote="github" revision="cm-14.1-test" />
