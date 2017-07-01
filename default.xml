@@ -511,7 +511,6 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/cm.xml" />
-  <include name="snippets/j7.xml" />
-  <include name="snippets/recovery.xml" />
+  <include name="snippets/msm8916.xml" />
 
 </manifest>
