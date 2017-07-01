@@ -36,7 +36,7 @@
   <project path="device/qcom-common" name="LineageOS/android_device_qcom_common"/>
   <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" groups="device" />
 
-  <project path="kernel/samsung/msm8916" name="LineageOS/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1"/>
+  <project path="kernel/samsung/msm8916" name="Galaxy-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="cm-14.1"/>
 
   <project path="device/samsung/j5-common" name="Galaxy-MSM8916/android_device_samsung_j5-common" groups="device" remote="github" revision="cm-14.1"/>
   <project path="device/samsung/j5lte" name="Galaxy-MSM8916/android_device_samsung_j5lte" groups="device" remote="github" revision="cm-14.1"/>
@@ -45,7 +45,7 @@
   <project path="device/samsung/j7lte-common" name="Galaxy-MSM8916/android_device_samsung_j7lte-common" groups="device" remote="github" revision="cm-14.1"/>
   <project path="device/samsung/j7ltespr" name="Galaxy-MSM8916/android_device_samsung_j7ltespr" groups="device" remote="github" revision="cm-14.1"/>
 
-  <project path="device/samsung/msm8916-common" name="LineageOS/android_device_samsung_msm8916-common" groups="device" remote="github" revision="cm-14.1"/>
+  <project path="device/samsung/msm8916-common" name="Galaxy-MSM8916/android_device_samsung_msm8916-common" groups="device" remote="github" revision="cm-14.1"/>
   <project path="device/samsung/gprimelte-common" name="LineageOS/android_device_samsung_gprimelte-common" groups="device" remote="github" revision="cm-14.1"/>
   <project path="device/samsung/gprimeltetfnvzw" name="Galaxy-MSM8916/android_device_samsung_gprimeltetfnvzw" groups="device" remote="github" revision="cm-14.1"/>
   <project path="device/samsung/gprimeltespr" name="LineageOS/android_device_samsung_gprimeltespr" groups="device" remote="github" revision="cm-14.1"/>
