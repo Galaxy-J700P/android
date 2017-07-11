@@ -3,9 +3,9 @@
 
 <!-- BEGIN J7LTESPR -->
 
-  <project path="device/samsung/j7ltespr" name="Galaxy-J700P/android_device_samsung_j7ltespr-twrp" remote="github" revision="android-7.1" />
+  <project path="device/samsung/j7ltespr" name="TeamWin/android_device_samsung_j7ltespr-twrp" remote="github" revision="android-7.1" />
   <project path="device/samsung/j7ltechn" name="Galaxy-J700P/android_device_samsung_j7ltechn-twrp" remote="github" revision="android-7.1" />
-  <project path="kernel/samsung/j7lte" name="Galaxy-J700P/android_kernel_samsung_j7lte" remote="github" revision="cm-14.1" />
+  <project path="kernel/samsung/j7lte" name="TeamWin/android_kernel_samsung_j7lte" remote="github" revision="cm-14.1" />
 
 <!-- END J7LTESPR -->
 
